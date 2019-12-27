@@ -9,6 +9,7 @@
         <module name="common-core" />
         <module name="user-service-api" />
         <module name="common-config" />
+        <module name="config-service" />
         <module name="wuluo-user-server" />
         <module name="user-service" />
         <module name="wuluo-team" />
@@ -17,7 +18,6 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="demo" target="1.8" />
-      <module name="user-service-api" target="1.8" />
       <module name="wuluo-user" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -27,6 +27,7 @@
       <module name="common-config" options="-parameters" />
       <module name="common-core" options="-parameters" />
       <module name="common-feign" options="-parameters" />
+      <module name="config-service" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="modules" options="-parameters" />
       <module name="spring-microservice-wuluo" options="-parameters" />
